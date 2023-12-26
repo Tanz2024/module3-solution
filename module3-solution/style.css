@@ -1,0 +1,129 @@
+     body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+            color: #343a40;
+        }
+
+        /* Navbar styles */
+        .navbar {
+            background-color: #ed8e26;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar-brand {
+            font-weight: bold;
+            font-size: 2rem;
+            color: #fff;
+        }
+
+        .navbar-toggler {
+            border: none;
+            color: #fff;
+        }
+
+        .navbar-nav .nav-link {
+            color: #fff !important;
+        }
+
+        .settings-btn {
+            background-color: transparent;
+            border: none;
+            font-size: 1.5rem;
+            color: #fff;
+            padding: 0;
+            margin-left: 10px;
+            cursor: pointer;
+        }
+
+        
+        .header-bg {
+            background: url('your-image-url.jpg') center/cover no-repeat;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+        }
+
+        .page-heading {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        /* Menu section styles */
+        .menu-section {
+            background-color: #f8f9fa;
+            padding: 50px 0;
+        }
+
+        .menu-card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            transition: transform 0.3s;
+        }
+
+        .menu-card:hover {
+            transform: scale(1.05);
+        }
+
+        .menu-card img {
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .menu-card-body {
+            padding: 20px;
+        }
+
+        .menu-card-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .menu-card-text {
+            font-size: 1.2rem;
+            color: #6c757d;
+        }
+
+      
+        .settings-menu {
+            display: none;
+            position: absolute;
+            top: 50px;
+            right: 10px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border: 1px solid #ddd;
+            padding: 10px;
+            z-index: 1000;
+        }
+
+        .settings-menu button {
+            display: block;
+            margin-bottom: 5px;
+            cursor: pointer;
+        }
+
+        .settings-btn:hover + .settings-menu,
+        .settings-menu:hover {
+            display: block;
+        }
+
+        .settings-menu:hover button {
+            display: block;
+        }
+
+       
+        @media (max-width: 767px) {
+            .settings-btn {
+                display: none;
+            }
+        }
